@@ -1,0 +1,12 @@
+#+TITLE: tree-sitter-gcc
+
+A collection of tree-sitter grammars for GCC's internal languages, including:
+  * Machine Description files (~.md~)
+  * RTL dumps
+  * GIMPLE dumps
+  * ~match.pd~ pattern files
+
+Like other tree-sitter grammars this is intended to be hooked into editors on their own.
+For Emacs, you should use [[https://github.com/KarlJoad/gcc-modes][gcc-modes]].
+
+This takes inspiration from [[https://github.com/RegAlloc/gcc-syntax-highlighting][gcc-syntax-highlighting]] for VSCode/VSCodium.
